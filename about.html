@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Our Gym</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    li {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f7f7f7;
+    }
+    header {
+      background: rgb(2, 0, 36);
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(56, 56, 85, 1) 35%,
+        rgba(48, 50, 109, 1) 58%,
+        rgba(0, 212, 255, 1) 100%
+      );
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .about-section,
+    .team-section {
+      margin-bottom: 30px;
+    }
+
+    .about-section h2,
+    .team-section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .about-section p,
+    .team-section p {
+      margin-bottom: 15px;
+    }
+
+    .team-member {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .team-member img {
+      width: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    footer p {
+      font-size: 14px;
+    }
+    @media only screen and (max-width: 768px) {
+      .home-section {
+        flex-direction: column-reverse;
+      }
+
+      .home-content {
+        margin-left: 0;
+        text-align: center;
+      }
+
+      .hero-image img {
+        margin-bottom: 20px;
+      }
+
+      .home-content h2 {
+        font-size: 28px;
+      }
+
+      .cta-button {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Welcome to Our Gym</h1>
+      <nav></nav>
+    </header>
+
+    <main>
+      <section class="about-section">
+        <h2>About Us</h2>
+        <p>
+          Welcome to our state-of-the-art gym! We are dedicated to helping you
+          achieve your fitness goals and lead a healthier lifestyle. Our gym is
+          equipped with top-notch exercise equipment, and our team of certified
+          trainers is here to support and motivate you throughout your fitness
+          journey.
+        </p>
+        <p>
+          At our gym, we believe in creating a friendly and inclusive
+          environment where everyone feels welcome. Whether you're a beginner or
+          a seasoned athlete, there's something for everyone here. We offer a
+          wide range of group classes and personal training sessions to cater to
+          your individual needs and preferences.
+        </p>
+        <p>
+          Join us today and start your fitness transformation! We can't wait to
+          see you reach new heights and achieve your fitness dreams.
+        </p>
+      </section> 
+      <section class="team-section">
+        <h2>Our Team</h2>
+        <div class="team-member">
+          <img src="trainer.avif" alt="Trainer 1" />
+          <h3>John Doe</h3>
+          <p>Certified Personal Trainer</p>
+        </div>
+        <div class="team-member">
+          <img src="iaen.jpg" alt="Trainer 2" />
+          <h3>Jane Smith</h3>
+          <p>Group Fitness Instructor</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+.min-h-screen{
+    max-height: 100vh;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+
+}
+.flex-column{
+    flex-direction: column;
+}
+.fontbold{
+    font-weight: bolder;
+}
+.text-blue{
+    color:  rgb(94, 6, 6);
+}
+
+.overflow-hidden{
+    overflow-x: hidden;
+}
+.logo{
+    font-size: 1.3rem;
+}
+.dumble{
+    width: 150px;
+}
+.px-3{
+    padding-top: 150px;
+}
+.text-center{
+    text-align: center;
+}
+.height{
+    height: 85px;
+    font-size: 2rem;
+    padding-bottom: 17px;
+    color: aliceblue;
+}
+.section2{
+    height: 500px;
+}
+.height2{
+ height: 50px;
+ width: 100%;
+}
+.color4{
+    color: black;
+    height: 92px;
+}

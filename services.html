@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gym Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset some default styles for consistency */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f7f7;
+}
+
+header {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(56,56,85,1) 35%, rgba(48,50,109,1) 58%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.services-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+footer p {
+  font-size: 14px;
+}
+.photo{
+    height: 260px;
+    width: 260px;
+}
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 20px;
+  }
+  
+  .service img {
+    max-width: 150px;
+  }
+  
+  .photo {
+    height: 150px;
+    width: 150px;
+  }
+}
+</style>
+<body>
+  <header>
+    <h1>Welcome to Our Gym</h1>
+    <nav>
+    </nav>
+  </header>
+
+  <main>
+    <section class="services-section">
+      <h2>Our Services</h2>
+      <div class="service">
+        <img class = "photo" src="pr.webp" alt="Service 1">
+        <h3>Personal Training</h3>
+        <p>Our certified trainers offer personalized workout programs tailored to your fitness goals and needs.</p>
+      </div>
+      <div class="service">
+        <img  class = "photo" src="grp.jpg" alt="Service 2">
+        <h3>Group Classes</h3>
+        <p>Join our group fitness classes led by experienced instructors and get motivated in a supportive community.</p>
+      </div>
+      <div class="service">
+        <img  class = "photo" src="cardio.jpg" alt="Service 3">
+        <h3>Cardio Area</h3>
+        <p>Work on your cardio and endurance using our state-of-the-art cardio equipment.</p>
+      </div>
+      <!-- Add more services as needed -->
+    </section>
+  </main>
+</body>
+
+</html>
